@@ -11,6 +11,8 @@ import Home from "./componentes/Home";
 function App() {
   return (
     <div>
+      <h1>Se modifico un archivo del documento de Juan</h1>
+      <p>Agrego mas lineas para agregar al repositorio</p>
       <Routes>
 <        Route path='/' element={<Layout />}>
         <Route path='about' element={<About />} />
@@ -20,8 +22,8 @@ function App() {
         <Route path='jugadores' element={<Jugadores />} />
         <Route path='posiciones' element={<Posiciones />} />
         </ Route>
-
       </Routes>
+      
     </div>
   );
 }
